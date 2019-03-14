@@ -6,7 +6,7 @@
     <body>
         <!-- Modal content-->
       <div class="modal-content">
-        <form name="file" method="POST">
+        <form name="file" method="POST" action="rec.php">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">File Header</h4>
@@ -42,15 +42,7 @@
         </div>
       </form>
 
-      <?php
-
-            $tittle = $_REQUEST['protittle'];
-            $folder = $_REQUEST['file'];
-
-            echo"Project File name :$tittle <br>";
-            echo"Project File :$folder <br>";
-
-        ?>
+      
 
     </body>
 </html>

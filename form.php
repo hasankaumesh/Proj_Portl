@@ -31,6 +31,10 @@
                   <label>Meta Description</label>
                   <input type="text" class="form-control" placeholder="Add Meta Description..." name="desc">
                 </div>
+             <div class="form-group">
+                  <label>Meta Description</label>
+                  <input type="text" class="form-control" placeholder="Add Meta Description..." name="desc">
+                </div>
               <div class="form-group">
                   <label>Your File</label>
                   <input type="file" class="form-control" placeholder="File" name="file">
